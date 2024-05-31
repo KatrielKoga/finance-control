@@ -178,7 +178,7 @@ export function CompoundInterestForm() {
 				</form>
 			</div>
 			{summary && (
-				<div>
+				<div className="mb-20">
 					<CompoundInterestSummary summary={summary} />
 					<CompoundInterestData table={table} />
 				</div>
